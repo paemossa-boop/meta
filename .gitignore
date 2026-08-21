@@ -1,0 +1,12 @@
+```
+# IDE and editor files
+.windsurf/
+.windsurfrules
+
+# Logs and temporary files
+*.log
+*.tmp
+```node_modules/
+.next/
+dist/
+build/
