@@ -1,0 +1,496 @@
+{
+  "address": "12XqeqZRVkBDgmPLVY4ZC6Y4ruUUEug8Fx",
+  "total_transactions": 88,
+  "analyzed_signatures": 85,
+  "vulnerabilities": [
+    {
+      "type": "message_hash_reuse",
+      "description": "Same message hash observed across signatures. This is unusual, but does not imply private key recovery without additional conditions.",
+      "tx1": "85fa24383faab3a52f3769eb699529c6cab5b4fc537c83a0a9c0a92dca4b68f5",
+      "tx2": "85fa24383faab3a52f3769eb699529c6cab5b4fc537c83a0a9c0a92dca4b68f5",
+      "severity": "info",
+      "technical_details": {
+        "r1": "0x177b0329b29beadab531aac056989d5b0db6941d53e3e3adb63cc746047d1e1b",
+        "r2": "0xf1d07e674fe76a8f181b3612a81b26b4cdda9e3d3295d4dd4cd75f8f5353fbcd",
+        "s1": "0x21ad601fe0c43a9b054a97dd83b248c728e7a8a7bd8f7eb6e2435ac8dfb52106",
+        "s2": "0x596760010349549a44affbbcf3a82b2aa9e56d283ab43f656afa1afb8a004d6",
+        "z1": "0xfade70d2044aeac14c49aa6b3e5d7d19686bc38df2fb91f4484fc64bf19ff24b",
+        "z2": "0xfade70d2044aeac14c49aa6b3e5d7d19686bc38df2fb91f4484fc64bf19ff24b"
+      }
+    },
+    {
+      "type": "message_hash_reuse",
+      "description": "Same message hash observed across signatures. This is unusual, but does not imply private key recovery without additional conditions.",
+      "tx1": "68703c23750d66b397e11454967e4e6f8ebd4a5e138c51b698448f45253608b0",
+      "tx2": "68703c23750d66b397e11454967e4e6f8ebd4a5e138c51b698448f45253608b0",
+      "severity": "info",
+      "technical_details": {
+        "r1": "0xc6f171705ef9502ab2ff34cf2c632119474748ccfd8deda40917e579e30acdb1",
+        "r2": "0x68363275a67615eead36789e169a183bbd22466b11cf94936e59fba780a23550",
+        "s1": "0x5af2a6b89f26df978861469f1f830434a343008eb18c7fb475466bb45b5e6ff6",
+        "s2": "0x207fed413ad5aef1b7e5ae46fab60584b028eab57f5ac1beb7b18181ce18e3bd",
+        "z1": "0xfab2d2453c50416c0ca78f03b07b0284249678a292eb8d00623d2c33ff014044",
+        "z2": "0xfab2d2453c50416c0ca78f03b07b0284249678a292eb8d00623d2c33ff014044"
+      }
+    },
+    {
+      "type": "message_hash_reuse",
+      "description": "Same message hash observed across signatures. This is unusual, but does not imply private key recovery without additional conditions.",
+      "tx1": "804a86fdf654fe357372d75d6f7e437c46ae404a15897b80f08d9f502e21afe7",
+      "tx2": "804a86fdf654fe357372d75d6f7e437c46ae404a15897b80f08d9f502e21afe7",
+      "severity": "info",
+      "technical_details": {
+        "r1": "0xd1e12440fd89b2f049cf6f702bffba6f9eb6c1aa0b8c189a70158ad2b568bca7",
+        "r2": "0xf15922c0ecfec38f96ee53397b125eafba165e1ed686983a7c281a86600fa422",
+        "s1": "0x1f9c74797d713fd7ee1316dfad6ff7cdcaa74c1cdab18e322681c359d9025033",
+        "s2": "0x7cc5a4a7fd05a7a4740074fa11103f31ce1fa3a9fa8dc02c49a9c4b67504c489",
+        "z1": "0x974999aa7bd33652ca12a887ad05da4ca068f94e8ec3b71cf4ff1db0d4147ab2",
+        "z2": "0x974999aa7bd33652ca12a887ad05da4ca068f94e8ec3b71cf4ff1db0d4147ab2"
+      }
+    },
+    {
+      "type": "message_hash_reuse",
+      "description": "Same message hash observed across signatures. This is unusual, but does not imply private key recovery without additional conditions.",
+      "tx1": "b6331d4dc16eea05900721b787ad5fb7f31395fc602edd334724af83722e4409",
+      "tx2": "b6331d4dc16eea05900721b787ad5fb7f31395fc602edd334724af83722e4409",
+      "severity": "info",
+      "technical_details": {
+        "r1": "0x543d3d502ac0490ac23123ac8e5175fb36c79eaa53e7d63f720392f37823efaf",
+        "r2": "0x6aa85db68ea9993e2b8b80222518e029cbe563bbc6804603c2d94c60da9c98dc",
+        "s1": "0xc6d332dcbb7029989d3639bc8d470e09ae83e70a71031af4c6ff88a41bc8207",
+        "s2": "0x424bf501b631c3c80cee846f72ae395401f25f1195a4c248afcc4820ebb3ae08",
+        "z1": "0x12960e73d9ee722942dc130b9bde42212ad5f8e53b873b555a665eabf5c5fda0",
+        "z2": "0x12960e73d9ee722942dc130b9bde42212ad5f8e53b873b555a665eabf5c5fda0"
+      }
+    },
+    {
+      "type": "message_hash_reuse",
+      "description": "Same message hash observed across signatures. This is unusual, but does not imply private key recovery without additional conditions.",
+      "tx1": "b4f9f7d25e951bccbb1e97b87a640a5a34fb0fab537f3fa9b5b75fb97f64ee91",
+      "tx2": "b4f9f7d25e951bccbb1e97b87a640a5a34fb0fab537f3fa9b5b75fb97f64ee91",
+      "severity": "info",
+      "technical_details": {
+        "r1": "0x44d5e5dff3082f2f194902ccbb32f5686cf1379241cfa0bd9553f6e0d6b3734d",
+        "r2": "0x1f1fc291adda33b4ed8c79ef42fde942ed4c8231ae623a58ab9c50056fd9795",
+        "s1": "0x56d4f1da1e2edb2261cd034571d59f1c480bc3dd5955eb01307e1792993bda6a",
+        "s2": "0x48e41f72099e616b636dd2d41bbb9608238d6e26255864745de68102f5713b6e",
+        "z1": "0xcb50209ab0c9790f01d3ccca9d3aad710668d025fcbe4597f327a2643b572cdd",
+        "z2": "0xcb50209ab0c9790f01d3ccca9d3aad710668d025fcbe4597f327a2643b572cdd"
+      }
+    },
+    {
+      "type": "message_hash_reuse",
+      "description": "Same message hash observed across signatures. This is unusual, but does not imply private key recovery without additional conditions.",
+      "tx1": "de89895cbcd9f072bfd2685af1c57e0d1ed70dc95f7c3c0191ca80a43047ad72",
+      "tx2": "de89895cbcd9f072bfd2685af1c57e0d1ed70dc95f7c3c0191ca80a43047ad72",
+      "severity": "info",
+      "technical_details": {
+        "r1": "0x31627ae73e0019b5d056e8ce4960b08c5eb17a6364041c920bc3cefcbea42bef",
+        "r2": "0x7fcf72de15a8d13158fa9f73a9bd359a678ec733a816c346fe0f19fea303eeb3",
+        "s1": "0x38741caf0e1962dec152084bb938e613965a5163ef7d76c3d36abbe9fc3af693",
+        "s2": "0x5baf6bbe25b3cb8e8bd53f6d534da9c78d6fa22967ecc85e00281f2bd1f0b211",
+        "z1": "0x79f178287793dfccd265fba78be1c4f1853b046d6a4ebae0c7f6e0fd20db0af9",
+        "z2": "0x79f178287793dfccd265fba78be1c4f1853b046d6a4ebae0c7f6e0fd20db0af9"
+      }
+    },
+    {
+      "type": "message_hash_reuse",
+      "description": "Same message hash observed across signatures. This is unusual, but does not imply private key recovery without additional conditions.",
+      "tx1": "c097a280bfed180a99d579053473408b8f0caa1c886bbc819fda65b08d590728",
+      "tx2": "c097a280bfed180a99d579053473408b8f0caa1c886bbc819fda65b08d590728",
+      "severity": "info",
+      "technical_details": {
+        "r1": "0x637c4d66225c0e96f7b7ed08dae69117d2b4347c541fb5ef4169447a37aa4c05",
+        "r2": "0xd46fe308d8b7a1a6f0b76d42c1a49ebe183763c9c26dca129401d0f252b085",
+        "s1": "0x211be6e180f81a2f6b8e98cbe1e851654bfac9beb99d762b5b76b8724e35ce1",
+        "s2": "0x378af9a87d160fdf0e27438c614378d9fafa99c0203ffc7ec49b51131c61cd76",
+        "z1": "0x9d6508154f635c49ff7797c5dc858e8b8e869466688e276898b73250e677af29",
+        "z2": "0x9d6508154f635c49ff7797c5dc858e8b8e869466688e276898b73250e677af29"
+      }
+    },
+    {
+      "type": "message_hash_reuse",
+      "description": "Same message hash observed across signatures. This is unusual, but does not imply private key recovery without additional conditions.",
+      "tx1": "b3666dd148b890502a0c480d62dc9d6c7dca90377ab33aea2722acda3427ae8b",
+      "tx2": "b3666dd148b890502a0c480d62dc9d6c7dca90377ab33aea2722acda3427ae8b",
+      "severity": "info",
+      "technical_details": {
+        "r1": "0x91d73382a60a2ef7ce7b32d3a56aa9a7486d37b994b4e78dd43edab01860029c",
+        "r2": "0x982fb607c3e97ecfd10041c39461e711643e516bd3bff15df11a0cd71b258cc1",
+        "s1": "0x6ba8985af73fb06fd4cda27ff296f55462b9fdb70a25d0070b43b960eebe7e18",
+        "s2": "0x7348f8c56c7a134afeb4d0fb11e2bc3e88409e1bb1a4f7087bd833acccd16130",
+        "z1": "0xfea6e2b0fe9c48835b602cf8660bdfbf58b39e4c5e403f755e6bb4daa8199070",
+        "z2": "0xfea6e2b0fe9c48835b602cf8660bdfbf58b39e4c5e403f755e6bb4daa8199070"
+      }
+    },
+    {
+      "type": "message_hash_reuse",
+      "description": "Same message hash observed across signatures. This is unusual, but does not imply private key recovery without additional conditions.",
+      "tx1": "c0af31da302bfe70fa2344179dc34f7be46d1207cce501253306fbfd0abad28d",
+      "tx2": "c0af31da302bfe70fa2344179dc34f7be46d1207cce501253306fbfd0abad28d",
+      "severity": "info",
+      "technical_details": {
+        "r1": "0x493a80569fb998c51fcda0f2ba01fb0d38637c15431397719b00e058d30945b1",
+        "r2": "0x3f17b717a06a7c1ef29ed2eb583887cc24eabff9ea7e829de694e83a3a6c399e",
+        "s1": "0x5b2baf6a705af24eb82cabcb7987a680c56c36a20cb41caa321f922375e9fcb4",
+        "s2": "0x8fbd90fefcd60a7644af74e977616b136a1306b8c15285fe056d1fb8fa50332",
+        "z1": "0xc57f8548a623ad1fdfa5b58632968a9a1dbc1ebe538bb885f5623cee36502a20",
+        "z2": "0xc57f8548a623ad1fdfa5b58632968a9a1dbc1ebe538bb885f5623cee36502a20"
+      }
+    },
+    {
+      "type": "message_hash_reuse",
+      "description": "Same message hash observed across signatures. This is unusual, but does not imply private key recovery without additional conditions.",
+      "tx1": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "tx2": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "severity": "info",
+      "technical_details": {
+        "r1": "0x8d690994e4048e1ed79b0d2abeb28c8b8f0af63193d5e9ada0d2831adaa5b860",
+        "r2": "0x9c868973eacca0d67944fde7cf539d651b4434aabf508e7feb1c75124784e712",
+        "s1": "0x24b4efdeef42cbca03c2d4cb156daa394b56ceb48e81c0b50d1a3ea1646ddfb0",
+        "s2": "0x7d7bf5cc2534a39eeca48bafea77af02764e97379638440f591b1f0f27aa7c63",
+        "z1": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006",
+        "z2": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006"
+      }
+    },
+    {
+      "type": "message_hash_reuse",
+      "description": "Same message hash observed across signatures. This is unusual, but does not imply private key recovery without additional conditions.",
+      "tx1": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "tx2": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "severity": "info",
+      "technical_details": {
+        "r1": "0x5fc4b76909df72e68a17418426dcb1b65d52feadba33bfc91a3c14508b08236d",
+        "r2": "0x9c868973eacca0d67944fde7cf539d651b4434aabf508e7feb1c75124784e712",
+        "s1": "0x61d10cced99fb69273725f3f05d0c68dd064d4ba9545cfa65d6e3366464f8bdb",
+        "s2": "0x7d7bf5cc2534a39eeca48bafea77af02764e97379638440f591b1f0f27aa7c63",
+        "z1": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006",
+        "z2": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006"
+      }
+    },
+    {
+      "type": "message_hash_reuse",
+      "description": "Same message hash observed across signatures. This is unusual, but does not imply private key recovery without additional conditions.",
+      "tx1": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "tx2": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "severity": "info",
+      "technical_details": {
+        "r1": "0x5fc4b76909df72e68a17418426dcb1b65d52feadba33bfc91a3c14508b08236d",
+        "r2": "0x8d690994e4048e1ed79b0d2abeb28c8b8f0af63193d5e9ada0d2831adaa5b860",
+        "s1": "0x61d10cced99fb69273725f3f05d0c68dd064d4ba9545cfa65d6e3366464f8bdb",
+        "s2": "0x24b4efdeef42cbca03c2d4cb156daa394b56ceb48e81c0b50d1a3ea1646ddfb0",
+        "z1": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006",
+        "z2": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006"
+      }
+    },
+    {
+      "type": "message_hash_reuse",
+      "description": "Same message hash observed across signatures. This is unusual, but does not imply private key recovery without additional conditions.",
+      "tx1": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "tx2": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "severity": "info",
+      "technical_details": {
+        "r1": "0xc25b7372ffb6911a2387571516735ce09d40bb5aa9ca3a33eb0854b17c46a190",
+        "r2": "0x9c868973eacca0d67944fde7cf539d651b4434aabf508e7feb1c75124784e712",
+        "s1": "0x6a02a45b052f611d91f162f00bdb479f52e0c617ab072179a704afbeb494b000",
+        "s2": "0x7d7bf5cc2534a39eeca48bafea77af02764e97379638440f591b1f0f27aa7c63",
+        "z1": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006",
+        "z2": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006"
+      }
+    },
+    {
+      "type": "message_hash_reuse",
+      "description": "Same message hash observed across signatures. This is unusual, but does not imply private key recovery without additional conditions.",
+      "tx1": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "tx2": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "severity": "info",
+      "technical_details": {
+        "r1": "0xc25b7372ffb6911a2387571516735ce09d40bb5aa9ca3a33eb0854b17c46a190",
+        "r2": "0x8d690994e4048e1ed79b0d2abeb28c8b8f0af63193d5e9ada0d2831adaa5b860",
+        "s1": "0x6a02a45b052f611d91f162f00bdb479f52e0c617ab072179a704afbeb494b000",
+        "s2": "0x24b4efdeef42cbca03c2d4cb156daa394b56ceb48e81c0b50d1a3ea1646ddfb0",
+        "z1": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006",
+        "z2": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006"
+      }
+    },
+    {
+      "type": "message_hash_reuse",
+      "description": "Same message hash observed across signatures. This is unusual, but does not imply private key recovery without additional conditions.",
+      "tx1": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "tx2": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "severity": "info",
+      "technical_details": {
+        "r1": "0xc25b7372ffb6911a2387571516735ce09d40bb5aa9ca3a33eb0854b17c46a190",
+        "r2": "0x5fc4b76909df72e68a17418426dcb1b65d52feadba33bfc91a3c14508b08236d",
+        "s1": "0x6a02a45b052f611d91f162f00bdb479f52e0c617ab072179a704afbeb494b000",
+        "s2": "0x61d10cced99fb69273725f3f05d0c68dd064d4ba9545cfa65d6e3366464f8bdb",
+        "z1": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006",
+        "z2": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006"
+      }
+    },
+    {
+      "type": "message_hash_reuse",
+      "description": "Same message hash observed across signatures. This is unusual, but does not imply private key recovery without additional conditions.",
+      "tx1": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "tx2": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "severity": "info",
+      "technical_details": {
+        "r1": "0x9b7006cca3e9e2f454e871628271c8dc2531d39bd8e439230208ed194318de53",
+        "r2": "0x9c868973eacca0d67944fde7cf539d651b4434aabf508e7feb1c75124784e712",
+        "s1": "0x5c0702733ac3860b9c23d22cac8b0e428a725d3b6439b79c46d34c93bf2bfcdd",
+        "s2": "0x7d7bf5cc2534a39eeca48bafea77af02764e97379638440f591b1f0f27aa7c63",
+        "z1": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006",
+        "z2": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006"
+      }
+    },
+    {
+      "type": "message_hash_reuse",
+      "description": "Same message hash observed across signatures. This is unusual, but does not imply private key recovery without additional conditions.",
+      "tx1": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "tx2": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "severity": "info",
+      "technical_details": {
+        "r1": "0x9b7006cca3e9e2f454e871628271c8dc2531d39bd8e439230208ed194318de53",
+        "r2": "0x8d690994e4048e1ed79b0d2abeb28c8b8f0af63193d5e9ada0d2831adaa5b860",
+        "s1": "0x5c0702733ac3860b9c23d22cac8b0e428a725d3b6439b79c46d34c93bf2bfcdd",
+        "s2": "0x24b4efdeef42cbca03c2d4cb156daa394b56ceb48e81c0b50d1a3ea1646ddfb0",
+        "z1": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006",
+        "z2": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006"
+      }
+    },
+    {
+      "type": "message_hash_reuse",
+      "description": "Same message hash observed across signatures. This is unusual, but does not imply private key recovery without additional conditions.",
+      "tx1": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "tx2": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "severity": "info",
+      "technical_details": {
+        "r1": "0x9b7006cca3e9e2f454e871628271c8dc2531d39bd8e439230208ed194318de53",
+        "r2": "0x5fc4b76909df72e68a17418426dcb1b65d52feadba33bfc91a3c14508b08236d",
+        "s1": "0x5c0702733ac3860b9c23d22cac8b0e428a725d3b6439b79c46d34c93bf2bfcdd",
+        "s2": "0x61d10cced99fb69273725f3f05d0c68dd064d4ba9545cfa65d6e3366464f8bdb",
+        "z1": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006",
+        "z2": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006"
+      }
+    },
+    {
+      "type": "message_hash_reuse",
+      "description": "Same message hash observed across signatures. This is unusual, but does not imply private key recovery without additional conditions.",
+      "tx1": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "tx2": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "severity": "info",
+      "technical_details": {
+        "r1": "0x9b7006cca3e9e2f454e871628271c8dc2531d39bd8e439230208ed194318de53",
+        "r2": "0xc25b7372ffb6911a2387571516735ce09d40bb5aa9ca3a33eb0854b17c46a190",
+        "s1": "0x5c0702733ac3860b9c23d22cac8b0e428a725d3b6439b79c46d34c93bf2bfcdd",
+        "s2": "0x6a02a45b052f611d91f162f00bdb479f52e0c617ab072179a704afbeb494b000",
+        "z1": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006",
+        "z2": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006"
+      }
+    },
+    {
+      "type": "message_hash_reuse",
+      "description": "Same message hash observed across signatures. This is unusual, but does not imply private key recovery without additional conditions.",
+      "tx1": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "tx2": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "severity": "info",
+      "technical_details": {
+        "r1": "0xaf2f68787de980e283b272a2e743e009b24c0df3fb3737b5907975f05832c66a",
+        "r2": "0x9c868973eacca0d67944fde7cf539d651b4434aabf508e7feb1c75124784e712",
+        "s1": "0x26a0f83c443ba1af18befe77c81301239b5bef33bb8c951da3f7c8a8c4cd9e22",
+        "s2": "0x7d7bf5cc2534a39eeca48bafea77af02764e97379638440f591b1f0f27aa7c63",
+        "z1": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006",
+        "z2": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006"
+      }
+    },
+    {
+      "type": "message_hash_reuse",
+      "description": "Same message hash observed across signatures. This is unusual, but does not imply private key recovery without additional conditions.",
+      "tx1": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "tx2": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "severity": "info",
+      "technical_details": {
+        "r1": "0xaf2f68787de980e283b272a2e743e009b24c0df3fb3737b5907975f05832c66a",
+        "r2": "0x8d690994e4048e1ed79b0d2abeb28c8b8f0af63193d5e9ada0d2831adaa5b860",
+        "s1": "0x26a0f83c443ba1af18befe77c81301239b5bef33bb8c951da3f7c8a8c4cd9e22",
+        "s2": "0x24b4efdeef42cbca03c2d4cb156daa394b56ceb48e81c0b50d1a3ea1646ddfb0",
+        "z1": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006",
+        "z2": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006"
+      }
+    },
+    {
+      "type": "message_hash_reuse",
+      "description": "Same message hash observed across signatures. This is unusual, but does not imply private key recovery without additional conditions.",
+      "tx1": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "tx2": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "severity": "info",
+      "technical_details": {
+        "r1": "0xaf2f68787de980e283b272a2e743e009b24c0df3fb3737b5907975f05832c66a",
+        "r2": "0x5fc4b76909df72e68a17418426dcb1b65d52feadba33bfc91a3c14508b08236d",
+        "s1": "0x26a0f83c443ba1af18befe77c81301239b5bef33bb8c951da3f7c8a8c4cd9e22",
+        "s2": "0x61d10cced99fb69273725f3f05d0c68dd064d4ba9545cfa65d6e3366464f8bdb",
+        "z1": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006",
+        "z2": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006"
+      }
+    },
+    {
+      "type": "message_hash_reuse",
+      "description": "Same message hash observed across signatures. This is unusual, but does not imply private key recovery without additional conditions.",
+      "tx1": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "tx2": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "severity": "info",
+      "technical_details": {
+        "r1": "0xaf2f68787de980e283b272a2e743e009b24c0df3fb3737b5907975f05832c66a",
+        "r2": "0xc25b7372ffb6911a2387571516735ce09d40bb5aa9ca3a33eb0854b17c46a190",
+        "s1": "0x26a0f83c443ba1af18befe77c81301239b5bef33bb8c951da3f7c8a8c4cd9e22",
+        "s2": "0x6a02a45b052f611d91f162f00bdb479f52e0c617ab072179a704afbeb494b000",
+        "z1": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006",
+        "z2": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006"
+      }
+    },
+    {
+      "type": "message_hash_reuse",
+      "description": "Same message hash observed across signatures. This is unusual, but does not imply private key recovery without additional conditions.",
+      "tx1": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "tx2": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "severity": "info",
+      "technical_details": {
+        "r1": "0xaf2f68787de980e283b272a2e743e009b24c0df3fb3737b5907975f05832c66a",
+        "r2": "0x9b7006cca3e9e2f454e871628271c8dc2531d39bd8e439230208ed194318de53",
+        "s1": "0x26a0f83c443ba1af18befe77c81301239b5bef33bb8c951da3f7c8a8c4cd9e22",
+        "s2": "0x5c0702733ac3860b9c23d22cac8b0e428a725d3b6439b79c46d34c93bf2bfcdd",
+        "z1": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006",
+        "z2": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006"
+      }
+    },
+    {
+      "type": "message_hash_reuse",
+      "description": "Same message hash observed across signatures. This is unusual, but does not imply private key recovery without additional conditions.",
+      "tx1": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "tx2": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "severity": "info",
+      "technical_details": {
+        "r1": "0xf549324c5c1178c7531fb3f643bd5661b730d8c819b47eb05602796f8785312d",
+        "r2": "0x9c868973eacca0d67944fde7cf539d651b4434aabf508e7feb1c75124784e712",
+        "s1": "0x32f99914a4079378fc4923fce73da65588cb4e4824397895aa980aa2319c1038",
+        "s2": "0x7d7bf5cc2534a39eeca48bafea77af02764e97379638440f591b1f0f27aa7c63",
+        "z1": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006",
+        "z2": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006"
+      }
+    },
+    {
+      "type": "message_hash_reuse",
+      "description": "Same message hash observed across signatures. This is unusual, but does not imply private key recovery without additional conditions.",
+      "tx1": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "tx2": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "severity": "info",
+      "technical_details": {
+        "r1": "0xf549324c5c1178c7531fb3f643bd5661b730d8c819b47eb05602796f8785312d",
+        "r2": "0x8d690994e4048e1ed79b0d2abeb28c8b8f0af63193d5e9ada0d2831adaa5b860",
+        "s1": "0x32f99914a4079378fc4923fce73da65588cb4e4824397895aa980aa2319c1038",
+        "s2": "0x24b4efdeef42cbca03c2d4cb156daa394b56ceb48e81c0b50d1a3ea1646ddfb0",
+        "z1": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006",
+        "z2": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006"
+      }
+    },
+    {
+      "type": "message_hash_reuse",
+      "description": "Same message hash observed across signatures. This is unusual, but does not imply private key recovery without additional conditions.",
+      "tx1": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "tx2": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "severity": "info",
+      "technical_details": {
+        "r1": "0xf549324c5c1178c7531fb3f643bd5661b730d8c819b47eb05602796f8785312d",
+        "r2": "0x5fc4b76909df72e68a17418426dcb1b65d52feadba33bfc91a3c14508b08236d",
+        "s1": "0x32f99914a4079378fc4923fce73da65588cb4e4824397895aa980aa2319c1038",
+        "s2": "0x61d10cced99fb69273725f3f05d0c68dd064d4ba9545cfa65d6e3366464f8bdb",
+        "z1": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006",
+        "z2": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006"
+      }
+    },
+    {
+      "type": "message_hash_reuse",
+      "description": "Same message hash observed across signatures. This is unusual, but does not imply private key recovery without additional conditions.",
+      "tx1": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "tx2": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "severity": "info",
+      "technical_details": {
+        "r1": "0xf549324c5c1178c7531fb3f643bd5661b730d8c819b47eb05602796f8785312d",
+        "r2": "0xc25b7372ffb6911a2387571516735ce09d40bb5aa9ca3a33eb0854b17c46a190",
+        "s1": "0x32f99914a4079378fc4923fce73da65588cb4e4824397895aa980aa2319c1038",
+        "s2": "0x6a02a45b052f611d91f162f00bdb479f52e0c617ab072179a704afbeb494b000",
+        "z1": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006",
+        "z2": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006"
+      }
+    },
+    {
+      "type": "message_hash_reuse",
+      "description": "Same message hash observed across signatures. This is unusual, but does not imply private key recovery without additional conditions.",
+      "tx1": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "tx2": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "severity": "info",
+      "technical_details": {
+        "r1": "0xf549324c5c1178c7531fb3f643bd5661b730d8c819b47eb05602796f8785312d",
+        "r2": "0x9b7006cca3e9e2f454e871628271c8dc2531d39bd8e439230208ed194318de53",
+        "s1": "0x32f99914a4079378fc4923fce73da65588cb4e4824397895aa980aa2319c1038",
+        "s2": "0x5c0702733ac3860b9c23d22cac8b0e428a725d3b6439b79c46d34c93bf2bfcdd",
+        "z1": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006",
+        "z2": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006"
+      }
+    },
+    {
+      "type": "message_hash_reuse",
+      "description": "Same message hash observed across signatures. This is unusual, but does not imply private key recovery without additional conditions.",
+      "tx1": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "tx2": "06602f860dca58503d341eddf2d4a066a05ea12b69c7176aba8f837ea0d72154",
+      "severity": "info",
+      "technical_details": {
+        "r1": "0xf549324c5c1178c7531fb3f643bd5661b730d8c819b47eb05602796f8785312d",
+        "r2": "0xaf2f68787de980e283b272a2e743e009b24c0df3fb3737b5907975f05832c66a",
+        "s1": "0x32f99914a4079378fc4923fce73da65588cb4e4824397895aa980aa2319c1038",
+        "s2": "0x26a0f83c443ba1af18befe77c81301239b5bef33bb8c951da3f7c8a8c4cd9e22",
+        "z1": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006",
+        "z2": "0x5421d7a07e838fba6a17c7692ba15ea066a0d4f2dd1e343d5058ca0d862f6006"
+      }
+    }
+  ],
+  "recovered_keys": [],
+  "omni": {
+    "count": 0,
+    "txids": []
+  },
+  "analysis_time": 77.83236622810364,
+  "errors": [
+    "Failed to extract r,s from ecc18a88a41e15dd3fbb8c9d9c94c55ab24003291d35205f395b9b5153ffff8d: Failed to extract r,s: Invalid signature length",
+    "Failed to extract r,s from 7b5092fbe829b99ab3bbacfcfaddf405a6ee379c200cbdba44ecd02cb70def51: Failed to extract r,s: No DER signature found",
+    "Failed to extract r,s from ba2355157af65452102bea794abdf49f76c08859b871cfb499bf7372a2058209: Failed to extract r,s: No DER signature found",
+    "Failed to extract r,s from ba2355157af65452102bea794abdf49f76c08859b871cfb499bf7372a2058209: Failed to extract r,s: No DER signature found",
+    "Failed to extract r,s from a98e0028c1dd03e58853f3491efe3655124a260a2c9f3725c5efb48f1b3864f4: Failed to extract r,s: No DER signature found",
+    "Failed to extract r,s from a98e0028c1dd03e58853f3491efe3655124a260a2c9f3725c5efb48f1b3864f4: Failed to extract r,s: No DER signature found",
+    "Failed to extract r,s from 86d9abab67f1157e48ac2c150f8baf5d43610ad65fe374f844e46d86c01e783c: Failed to extract r,s: No DER signature found",
+    "Failed to extract r,s from 86d9abab67f1157e48ac2c150f8baf5d43610ad65fe374f844e46d86c01e783c: Failed to extract r,s: Invalid length encoding",
+    "Failed to extract r,s from 13d043105bacc5d1a6d1ce69813a5f376773c97d345f32274e4002dc5a2af228: Failed to extract r,s: Invalid signature length",
+    "Failed to extract r,s from 13d043105bacc5d1a6d1ce69813a5f376773c97d345f32274e4002dc5a2af228: Failed to extract r,s: No DER signature found",
+    "Failed to extract r,s from 65f1bd5a742744b98f0fe38bc78525d066f1460a3341237312ebc370ce27acff: Failed to extract r,s: No DER signature found",
+    "Failed to extract r,s from 65f1bd5a742744b98f0fe38bc78525d066f1460a3341237312ebc370ce27acff: Failed to extract r,s: No DER signature found",
+    "Failed to extract r,s from 5aca40dfe07bf5a3ac37f42e861c62b12d985d9482f6651b778a5bdd1f01758b: Failed to extract r,s: Invalid length encoding",
+    "Failed to extract r,s from a481c912bec141e1351752518f9d19e50587dd43cce68dcacce4964f8ef5c165: Failed to extract r,s: No DER signature found",
+    "Failed to extract r,s from 9a380e1bb619f0486c092e9409719062b3308e897708ab6c5a1ad6f0d0ccb0da: Failed to extract r,s: No DER signature found",
+    "Failed to extract r,s from 9a380e1bb619f0486c092e9409719062b3308e897708ab6c5a1ad6f0d0ccb0da: Failed to extract r,s: Invalid length encoding",
+    "Failed to extract r,s from 5652e9af36c8cafbdc1368fcefdf52ba4f140c9d7d234763222aeadac141ad4a: Failed to extract r,s: No DER signature found",
+    "Failed to extract r,s from 5652e9af36c8cafbdc1368fcefdf52ba4f140c9d7d234763222aeadac141ad4a: Failed to extract r,s: No DER signature found",
+    "Failed to extract r,s from 964229bcc11dd13b400f076be4e3406b5c5a2ffd19cdd18b3e7bc62eef5b5953: Failed to extract r,s: No DER signature found",
+    "Failed to extract r,s from 134d5a786957af96ad62f3f9b7c8567cc45d8e50914e5788de5e9379efda6eb1: Failed to extract r,s: No DER signature found",
+    "Failed to extract r,s from 78696a9817005803fd140c3854faa76eb33920e522f5e255f845b9047fd19c2c: Failed to extract r,s: No DER signature found",
+    "Failed to extract r,s from 52877d32ae01197834a6acf39c14bfda432fc1b0b08dae3174144ec9ccb43570: Failed to extract r,s: Invalid r marker",
+    "Failed to extract r,s from 4b2ad971cc8d66828ef8ccf80245e6e18770df75d4e8d948fa2c090efc20a04d: Failed to extract r,s: No DER signature found",
+    "Failed to extract r,s from 4b2ad971cc8d66828ef8ccf80245e6e18770df75d4e8d948fa2c090efc20a04d: Failed to extract r,s: No DER signature found",
+    "Failed to extract r,s from c4845630e9ae14daf02d9b99d5ffbba162a277cd63c58d00073f0b89e01ca582: Failed to extract r,s: Signature too short",
+    "Failed to extract r,s from c4845630e9ae14daf02d9b99d5ffbba162a277cd63c58d00073f0b89e01ca582: Failed to extract r,s: Invalid length encoding",
+    "Failed to extract r,s from e6eebb07e34c4805efaa04a7dc253be21b0a817b86099a953970963200dee765: Failed to extract r,s: No DER signature found",
+    "Failed to extract r,s from e6eebb07e34c4805efaa04a7dc253be21b0a817b86099a953970963200dee765: Failed to extract r,s: No DER signature found",
+    "Failed to extract r,s from c50c766ae2be371261317d61a0322b26f3c10d52af1ccec18d3e5ff3274f238c: Failed to extract r,s: No DER signature found",
+    "Failed to extract r,s from c50c766ae2be371261317d61a0322b26f3c10d52af1ccec18d3e5ff3274f238c: Failed to extract r,s: No DER signature found",
+    "Failed to extract r,s from e0dbf26ced4153ac7f736635bc3593978238635eb598ce635c21e251168b37f9: Failed to extract r,s: No DER signature found"
+  ]
+}
