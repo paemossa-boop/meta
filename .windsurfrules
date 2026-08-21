@@ -1,0 +1,34 @@
+# Windsurf AI Development Guidelines
+
+## Core Principles
+
+1. **Memory-Driven Development**: All context is maintained in the `.windsurf/` directory structure
+2. **Event-Driven Workflow**: Tasks trigger specific handlers with clear state transitions
+3. **Self-Healing System**: Automatic detection and recovery from failures
+4. **Quality Standards**: Non-negotiable performance requirements (minimum 18/23 points per task)
+
+## Directory Structure
+
+```
+.windsurf/
+├── core/           # MEMORY BANK - Persistent project knowledge
+│   ├── projectbrief.md
+│   ├── productContext.md
+│   ├── systemPatterns.md
+│   ├── techContext.md
+│   └── activeContext.md
+├── plans/          # Implementation plans
+├── task-logs/      # Detailed task execution logs
+├── errors/         # Error records and resolutions
+└── memory-index.md # Master index with checksums
+```
+
+## Task Evaluation
+
+- **Excellent**: 21-23 points (>=90%)
+- **Sufficient**: 18-20 points (>=78%)
+- **Failure**: Below 18 points - requires immediate remediation
+
+## Documentation Format
+
+All documentation follows: Context → Decision → Alternatives → Consequences → Status
